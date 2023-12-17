@@ -11,19 +11,19 @@
  <body>
   <!-- Nav bar section-->  
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-info">
             <div class="container-fluid">
               <h1>Emily Kent</h1>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#who">Who am I?</a>
                   <a class="nav-link" href="#work">Work</a>
                   <a class="nav-link" href="#skills">Skills</a>
-                  <a class="nav-link" href="#">About Me</a>
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#about">About Me</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </div>
               </div>
             </div>
@@ -31,44 +31,44 @@
     </header>
 
     <!-- Hero section-->  
-    <div class="container-fluid bg-light p-5">
-        <h1 class="display-4" id="who">Who am I?</h1>
-        <p class="lead">My name is Emily Kent and I am currently a Bootcamp student.</p>
+    <div class="container-fluid bg-light p-5 banner">
+        <h1 class="display-4 text-light" id="who">Who am I?</h1>
+        <p class="lead text-light">My name is Emily Kent and I am currently a Bootcamp student.</p>
         <hr class="my-4">
-        <p>This portfolio will display a little about me and the skills I have, alongside my best pieces of work.</p>
-        <img src="images/Selfie.png" alt="Emily Kent">
+        <p class="text-light">This portfolio will display a little about me and the skills I have, alongside my best pieces of work.</p>
+        <img src="images/Selfie.png" alt="Emily Kent" id="me">  
       </div>
 
       <main>
     <!-- Work section-->  
     <div class="container text-center">
-        <div class="row">
-            <h1 id="work">Work</h1>
+       <h2 id="work">Work</h2> 
+       <div class="row">     
           <div class="col">
-           <div class="card" style="width: 18rem;">
-        <img src="images/Horiseon-image.png" class="card-img-top" alt="...">
+           <div class="card">
+        <img src="images/Horiseon-image.png" class="card-img-top">
         <div class="card-body">
           <h5 class="card-title">Code Refactoring</h5>
           <p class="card-text">HTML, CSS</p>
-          <a href="#" class="btn btn-primary">Click here to visit the webpage.</a>
+          <a href="https://embow24.github.io/code-refactor-Horiseon/" class="btn btn-primary">Click here to visit the webpage.</a>
         </div>
       </div> 
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="samples">
           <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="images/Prework-image.png" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/Prework-image.png" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Study Guide</h5>
                   <p class="card-text">HTML, CSS</p>
-                  <a href="#" class="btn btn-primary">Click here to visit the webpage.</a>
+                  <a href="https://embow24.github.io/prework-study-guide/" class="btn btn-primary">Click here to visit the webpage.</a>
                 </div>
               </div>
           </div>
           <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="images/portfolio.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/portfolio.jpg" class="card-img-top" id="example">
                 <div class="card-body">
                   <h5 class="card-title">Color matches</h5>
                   <p class="card-text">HTML, CSS</p>
@@ -80,8 +80,8 @@
       </div>
 
     <!-- Skills section-->
-    <section>
-        <h1 id="skills">Skills</h1>
+    <section class="skills">
+        <h2 id="skills">Skills</h2>
       <ul class="list-group">
         <li class="list-group-item">HTML</li>
         <li class="list-group-item">CSS</li>
@@ -93,15 +93,24 @@
     </section>
 
     <!-- About/ contact section-->
-
-    <div class="container text-center">
-        <h3>About Me</h3>
-        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <div class="container text-center" >
+        <h2 id="about">About Me</h2>
+        <div class="row">
           <div class="col">
-            <div class="p-3 border bg-light">I am a dedicatied, motivated individual who enjoys a challenge. After obtaining a university degree in the education sector I spent three years teaching in a primary school. During this time I taught multiple year groups comupter safety and how to use coding software such as scratch. This sparked my interest in understanding what goes into creating a webpage and therefore I am now currently developing my own coding skills through a Frontend Web Developer bootcamp course.</div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">What I've achieved</h3>
+                  <p>I am a dedicatied, motivated individual who enjoys a challenge. After obtaining a university degree in the education sector I spent three years teaching in a primary school. During this time I taught multiple year groups comupter safety and how to use coding software such as scratch. This sparked my interest in understanding what goes into creating a webpage and therefore I am now currently developing my own coding skills through a Frontend Web Developer bootcamp course.</p>
+                </div>
+              </div>
           </div>
           <div class="col">
-            <div class="p-3 border bg-light">My goal is to become confident in web development and support companies in designing accessible, functional webpages that cater for all of their consumers. I aim to become knowledgable in using web development software such as HTML, CSS and JacaScript to name a few. Due to my good organisational and teamwork skills, along with a good eye for detail, I feel confident that with hard work I could develop great skills for this field of work.</div>
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">What my goal is.</h3>
+                  <p>My goal is to become confident in web development and support companies in designing accessible, functional webpages that cater for all of their consumers. I aim to become knowledgable in using web development software such as HTML, CSS and JacaScript to name a few. Due to my good organisational and teamwork skills, along with a good eye for detail, I feel confident that with hard work I could develop great skills for this field of work.</p>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -109,8 +118,8 @@
 
 </main>
     <!-- Footer section-->
-    <div class="container footer">
-        <h3>Contact Me</h3>
+    <div class="container footer" id="footer">
+        <h2 id="contact">Contact Me</h2>
           <a class="btn btn-primary" href="https://github.com/Embow24">GitHub</a>
           <a class="btn btn-primary" href="https://www.linkedin.com/in/emily-kent-30b3912a3/">LinkedIn</a>
           <a class="btn btn-primary" href="">Instagram</a>
