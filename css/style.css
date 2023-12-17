@@ -3,8 +3,17 @@
     background-image: url(../images/02-hero-bg.jpg);
 }
 
+#who {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
 #me {
-    width: 13%;
+    width: 20%;
+    margin-left: 40%;
 }
 
 h2 {
