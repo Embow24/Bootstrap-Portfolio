@@ -1,0 +1,32 @@
+
+.banner {
+    background-image: url(../images/02-hero-bg.jpg);
+}
+
+#me {
+    width: 13%;
+}
+
+h2 {
+    background-color: lightskyblue;
+    margin-top: 30px;
+}
+
+#example {
+    height: 150px;
+}
+
+#samples {
+    margin-top: 10px;
+}
+
+.skills {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
