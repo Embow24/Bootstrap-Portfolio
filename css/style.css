@@ -14,11 +14,16 @@ p {
 #me {
     width: 20%;
     margin-left: 40%;
+    border: lightpink solid 5px;
 }
 
 h2 {
-    background-color: lightskyblue;
+    background-color: lightpink;
     margin-top: 30px;
+}
+
+#border {
+    border-color: lightpink;
 }
 
 #example {
@@ -38,4 +43,22 @@ h2 {
 #footer {
     text-align: center;
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #facts {
+display: block;
+}
+
+#projects {
+    flex: none;
+    padding: 10px;
+}
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+    #example {
+        height: 95px;
+    }
 }
