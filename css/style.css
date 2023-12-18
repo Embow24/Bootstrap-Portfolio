@@ -1,13 +1,10 @@
 
+/* STYLING FOR IMAGES AND TEXT IN THE HERO SECTION*/
 .banner {
     background-image: url(../images/02-hero-bg.jpg);
 }
 
 #who {
-    text-align: center;
-}
-
-p {
     text-align: center;
 }
 
@@ -17,34 +14,46 @@ p {
     border: lightpink solid 5px;
 }
 
+/* STYLING FOR ALL PARAGRAPHS*/
+p {
+    text-align: center;
+}
+
+/* STYLING FOR ALL HEADINGS IN THE MAIN SECTION*/
 h2 {
     background-color: lightpink;
     margin-top: 30px;
 }
 
+/* BORDER COLOR FOR ALL CARDS AND LISTS IN THE MAIN SECTION*/
 #border {
     border-color: lightpink;
 }
 
-#example {
-    height: 150px;
-}
-
+/* STYLING FOR THE WORK SECTION*/
 #samples {
     margin-top: 10px;
 }
 
+/* SIZING FOR PLACEHOLDER IMAGE IN THE WORK SECTION*/
+#example {
+    height: 150px;
+}
+
+/* STYLING FOR THE SKILLS SECTION*/
 .skills {
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
 }
 
-#footer {
+/* STYLING FOR THE FOOTER SECTION*/
+footer {
     text-align: center;
     margin-bottom: 10px;
 }
 
+/* MEDIA QUERIES FOR MOBILE*/
 @media only screen and (max-width: 600px) {
 
     #facts {
@@ -57,6 +66,7 @@ display: block;
 }
 }
 
+/* MEDIA QUERIES FOR IPAD*/
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
     #example {
         height: 95px;
