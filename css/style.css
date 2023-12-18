@@ -53,6 +53,10 @@ footer {
     margin-bottom: 10px;
 }
 
+a:hover {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
 /* MEDIA QUERIES FOR MOBILE*/
 @media only screen and (max-width: 600px) {
 
