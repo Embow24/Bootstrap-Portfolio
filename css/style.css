@@ -65,8 +65,8 @@ a:hover {
 /* MEDIA QUERIES FOR MOBILE*/
 @media only screen and (max-width: 600px) {
 
-    #about-me {
-display: block;
+#about-me {
+    display: block;
 }
 
 .work {
@@ -77,7 +77,7 @@ display: block;
 
 /* MEDIA QUERIES FOR IPAD*/
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
-    #color-matches {
-        height: 95px;
+#color-matches {
+    height: 95px;
     }
 }
