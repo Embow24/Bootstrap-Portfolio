@@ -11,10 +11,10 @@ To acces this portfolio there is a navigation bar at the top of the page with li
 
 Below is a screenshot of the Bootstrap portfolio. 
 
-![screenshot](images/screenshot.png)
+![screenshot](images/Screenshot.png)
 
 
-To access this portfolio click the following link: https://embow24.github.io/Bootstrap-Portfolio/ 
+To access this portfolio click the following link: https://embow24.github.io/Bootstrap-Portfolio/  
 
 # Credits
 N/A
