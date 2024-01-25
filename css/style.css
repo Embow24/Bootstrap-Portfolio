@@ -40,7 +40,7 @@ h2 {
 }
 
 /* SIZING FOR PLACEHOLDER IMAGE IN THE WORK SECTION*/
-#color-matches {
+#password-generator {
     height: 150px;
 }
 
@@ -77,7 +77,7 @@ a:hover {
 
 /* MEDIA QUERIES FOR IPAD*/
 @media only screen and (min-width: 700px) and (max-width: 1000px) {
-#color-matches {
+#password-generator {
     height: 95px;
     }
 }
